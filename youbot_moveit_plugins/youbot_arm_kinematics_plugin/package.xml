@@ -4,7 +4,7 @@
   <version>0.0.1</version>
   <description>A 5DoF IK solve plugin for moveit</description>
   
-  <author email="arne.hitzmann@ostfalia.de">Arne Hitzmann</maintainer>
+  <author email="arne.hitzmann@ostfalia.de">Arne Hitzmann</author>
   <maintainer email="nss.nikolas@gmail.com">Nikolas Semenov</maintainer>
   
   <license>BSD</license>
