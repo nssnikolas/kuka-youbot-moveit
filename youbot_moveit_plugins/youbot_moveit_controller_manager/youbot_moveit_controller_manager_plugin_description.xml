@@ -1,0 +1,10 @@
+<library path="lib/libyoubot_moveit_controller_manager">
+<!-- name="moveit_youbot_controller_manager/YouBotMoveItControllerManager" -->
+  <class type="moveit_youbot_controller_manager::YouBotMoveItControllerManager"
+         base_class_type="moveit_controller_manager::MoveItControllerManager">
+    <description>
+      A trajectory controller for MoveIt.
+    </description>
+  </class>
+
+</library>

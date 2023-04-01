@@ -1,0 +1,5 @@
+<launch>
+  <param name="moveit_controller_manager" value="moveit_youbot_controller_manager::YouBotMoveItControllerManager"/>
+
+  <rosparam file="$(find youbot_moveit_config)/config/controllers.yaml"/>
+</launch>

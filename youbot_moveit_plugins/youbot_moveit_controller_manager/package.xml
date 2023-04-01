@@ -1,0 +1,27 @@
+<package>
+  <name>youbot_moveit_controller_manager</name>
+  <version>0.0.1</version>
+  <description>A MoveIT controller manager plugin for the KUKA youBot.</description>
+  
+  <author email="arne.hitzmann@gmail.com">Arne Hitzmann</author>
+  <maintainer email="nss.nikolas@gmail.com">Nikolas Semenov</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://robocup.fh-wolfenbuettel.de/</url>
+
+  <buildtool_depend>catkin</buildtool_depend> 
+
+  <build_depend>moveit_core</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>roscpp</build_depend>
+
+  <run_depend>moveit_core</run_depend>
+  <run_depend>pluginlib</run_depend>
+  <run_depend>roscpp</run_depend>
+
+  <export>
+    <moveit_core plugin="${prefix}/youbot_moveit_controller_manager_plugin_description.xml"/>
+  </export>
+
+</package>
