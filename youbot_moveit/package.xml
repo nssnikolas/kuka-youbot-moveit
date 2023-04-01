@@ -1,0 +1,22 @@
+<package>
+  <name>youbot_moveit</name>
+  <version>0.1.3</version>
+  <description>All youBot-specific packages for MoveIt</description>
+  
+  <author email="arne.hitzmann@gmail.com">Arne Hitzmann</author>
+  <maintainer email="nss.nikolas@gmail.com">Nikolas Semenov</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://moveit.ros.org</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>youbot_moveit_plugins</run_depend>
+  <run_depend>youbot_moveit_config</run_depend>
+  <run_depend>youbot_trajectory_controller</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+
+</package>
